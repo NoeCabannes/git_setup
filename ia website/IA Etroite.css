@@ -1,0 +1,33 @@
+h1{
+	color:blue;
+	background-color:grey;
+	text-align:center;
+font-size:450%}
+
+h2{
+color:chartreuse;
+text-align:center}
+
+h3{
+color:white;
+text-align:center}
+
+img{
+width: 45%}
+
+body{
+	background-image: url("image/fonc ia etroite.jpg");
+	background-size:100%}
+
+
+.bouton{
+	margin-top: 10px;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	transition: transform 0.3s ease;
+	text-decoration: none;
+}
+   

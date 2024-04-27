@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<meta charset="utf-8">
+<title>l'heure des Fondateurs </title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body> 
+<audio autoplay loop>
+  <source src="musique.mp3" type="audio/mp3">
+</audio>
+
+
+
+<h1>L'HEURE DES FONDATEURS</h1>
+<h2> Bonjour à vous ! Bienvenue sur notre site Web.</h2>
+<br>
+<h3> Si vous avez cliqué sur notre site, c'est que vous voulez en savoir plus sur le monde informatique. Nous vous donnons alors qu'une seule mission. Nous allons vous présentez 3 grands fondateurs qui ont révolutionné le monde informatique. Votre but, retenir un maximum d'informations pour répondre parfaitement à notre quizz. Si vous voulez accéder à la page biographique de chaque fondateur cliqué simplement sur l'image. </h3> 
+<br>
+<br>
+<h4> Ici les 3 grands fondateurs qui ont révolutionné le monde informatique.</h4>
+<br>
+<h5> Commençons par un petit challenge, vous devez découvrir qui sont ces trois personnes correspondant à l'image. Vous avez de la chance nous vous avons proposé des réponses. </h5>
+<br>
+<br>
+<br>
+<div id='box'>
+		<div id='box1'> <a href= stevejobs.html> <p> <img src= "steve Jobs.jpg"></p></a></div>
+		<div id='box2'> <a href= timbernerslee.html> <p> <img src= "tim berners lee.jpg"></p></a></div>
+		<div id='box3'> <a href= Bill%20Gates.html> <p> <img src= "bill Gates.jpg"></p></a></div>
+</div>
+<h6><div id='boxsup'>
+	<div id='boxsup1'> <label>
+							<input type="radio" name="choix1" value="a"> Paul Allen <br>
+					   </label>
+					   <label> 
+							<input type="radio" name="choix1"  value="b" id="correct1"> Steve Jobs <br>
+					   </label>
+					   <label>
+							<input type="radio" name="choix1"  value="c"> Alan Turing 
+					   </label></div>
+	<div id='boxsup2'> <label>
+							<input type="radio" name="choix2"  value="d"> Mark Zuckerberg <br>
+					   </label>
+					   <label>
+							<input type="radio" name="choix2"  value="e" id="correct2"> Tim berners-Lee <br>
+					   </label>
+					   <label>
+							<input type="radio" name="choix2"  value="f"> Adam Mosseri 
+					   </label></div>
+	<div id='boxsup3'> <label>
+							<input type="radio" name="choix3"  value="g" id="correct3"> Bill Gates <br>
+					   </label>
+					   <label>
+							<input type="radio" name="choix3"  value="h"> Elon Musk <br>
+					   </label>
+					   <label>
+							<input type="radio" name="choix3"  value="i"> Sundar Pinchai 
+					   </label></div>				   
+	</div></h6>
+	
+<h8><input type="submit" name="submit" value="Valider" onclick="result()" ></h8>
+
+	 
+	
+
+			
+			
+
+
+	<script type="text/javascript">
+		function result() {
+			var score=0;
+			if (document.getElementById('correct1').checked) 
+			{
+				score++;
+			}
+			if (document.getElementById('correct2').checked) 
+			{
+				score++;
+			}
+			if (document.getElementById('correct3').checked) 
+			{
+				score++;
+			}
+			if (score<3)
+			{
+				alert("Aïe... Il y a des erreurs. Votre score est de : "+score+"/3 ")
+			}
+			if (score==3)
+			{
+				alert("Bravo ! Votre score est de : "+score+"/3")
+			}
+		}
+	</script>
+	
+		
+<script>window.scrollTo(0, 0); setTimeout(function() { window.scrollTo(0, 0); },200)</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h7><button><a Quiz href= Projet%20site%20web.html> Notre Quizzzzzz !!!</button></a></h7>
+</body>
+</html>
+

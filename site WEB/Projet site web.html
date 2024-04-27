@@ -1,0 +1,139 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quizz</title>
+<link rel="stylesheet" href="stylequiz.css">
+</head>
+<h7><a href= accueil.html><p><img src= "image maison retour.jpg" </p></a></h7>
+<h1>C'est l'heure du Quizz !!!</h1>
+<br/>
+<body>
+
+<form id="quiz" name="quiz">
+	<h8><h2>Bill Gates</h2>
+	<h3><u>1-En quel année a t-il fondé microsoft ?</u></h3>
+					<h4>
+					<label>
+						<input type="radio"  name="q1" value="a">  1975
+					</label>
+					<label>
+						<input type="radio"  name="q1" value="b">  1976
+					</label>
+					<label>
+						<input type="radio"  name="q1" value="c" id="correct1">  1977
+					</label>
+					</h4>
+				
+            
+
+	<h3><u>2-Avec qui a t-il réalisé son premier programme informatique ?</u></h3>
+		<h4><select name="q2">
+				<option value="a"> Elon Musk</option>
+				<option value="b" id="correct2"> Paul Allen</option>
+				<option value="c"> Mark Zuckerberg</option>
+		</select></h4></h8>
+
+
+
+
+	<h8><h2>Steve Jobs</h2>
+	<h3><u>3-De quel application/invention est t-il le co-fondateur ?</u></h3>
+					<h4>
+					<label>
+						<input type="radio"  name="q3" value="a" id="correct3">  Apple 
+					</label>
+					<label>
+						<input type="radio"  name="q3" value="b">  Microsoft
+					</label>
+					<label>
+						<input type="radio"  name="q3" value="c">  WWW
+					</label></h4>
+<br/>
+<br/>
+		<h3><u>4-En quelle année est sortie le premier Iphone ?</u></h3>
+					<h4>
+					<label>
+						<input type="radio"  name="q4" value="a">  2005
+					</label>
+					<label>
+						<input type="radio"  name="q4" value="b">  2006
+					</label>
+					<label>
+						<input type="radio"  name="q4" value="c" id="correct4">  2007
+					</label>
+				
+					</h4></h8>
+	            
+	<h8><h2>Tim Berners-Lee</h2>
+		<h3><u>5-Quelle est la signification de "WWW" ?</u></h3>
+		<h4><select name="q5">
+				<option value="a"> Word Wide Web</option>
+				<option value="b" id="correct5"> World Wide Web</option>
+				<option value="c"> World Write Web</option>
+		</select></h4>
+		
+		<h3><u>6-Dans quelle université a-t-il fait ses études ?</u></h3>
+					<h4>
+						<label>
+							<input type="radio"  name="q6" value="a" id="correct6">  Oxford
+						</label>
+						<label>
+							<input type="radio"  name="q6" value="b">  Harvard
+						</label>
+						<label>
+							<input type="radio"  name="q6" value="c">  Cambridge
+						</label>
+					</h4></h8>
+
+
+
+  
+	<h4><p><br>
+	<input type="submit" name="submit" value="Valider vos réponses" onclick="result()"> </p></h4>
+			<br/>
+			
+
+<script type="text/javascript">
+		function result() {
+			var score=0;
+			var correct3 = document.quiz.q3.value;
+			if (document.getElementById('correct1').checked) 
+			{
+				score++;
+			}
+			if (document.getElementById('correct2').selected) 
+			{
+				score++;
+			}
+			if (document.getElementById('correct3').checked) 
+			{
+				score++;
+			}
+			if (document.getElementById('correct4').checked) 
+			{
+				score++;
+			}
+			if (document.getElementById('correct5').selected) 
+			{
+				score++;
+			}
+			if (document.getElementById('correct6').checked) 
+			{
+				score++;
+			}
+			if (score<6)
+			{
+				alert("Aïe... Il y a des erreurs. Votre score est de : "+score+"/6 ")
+			}
+			if (score==6)
+			{
+				alert("Bravo ! Votre score est de : "+score+"/6")
+			}
+		}
+</script>
+
+
+</body>
+
+</html>

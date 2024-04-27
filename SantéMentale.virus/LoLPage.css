@@ -1,0 +1,77 @@
+body {
+	color: white;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('Fond2.jpg')
+}
+
+h1 {
+	font-size: 400%;
+	text-align: center;
+}
+
+Kececé {
+	padding: 20px;
+	text-align: justify;
+	display: flex;
+}
+
+img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px; 
+}
+
+.zone {
+	color: white;
+	font-size: 25px;
+	background-color: black;
+	border: 10px solid #333;
+	padding :20px;
+	margin: 10px;
+	flex: 1;
+}
+
+h {
+	font-size: 150%;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	font-size: 250%;
+	text-align: center;
+}
+
+h4 {
+	font-size: 30px;
+	text-align: center;
+}
+
+Témoignage {
+	text-align: center;
+}
+
+.zone1 {
+	color: white;
+	font-size: 25px;
+	background-color: black;
+	border: 10px solid #333;
+	padding :20px;
+	margin: 10px;
+	flex: 1;
+}
+
+h5 {	
+	font-size: 200%;
+	text-align: center;
+}
+
+h7 {	
+	font-size: 200%;
+	text-align: center;
+}

@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'KodeMono'; 
+    src: url('font/KodeMono-Regular.ttf') format('truetype'),
+}
+
+body{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	overflow: hidden;
+}
+
+/*La partie à droite-------------------------------------------------------------------------------------------*/
+
+.gauche {
+    position: fixed;
+    left: 0;
+    top: 50%; 
+    transform: translateY(-50%);
+    padding: 5px;
+}
+
+
+h1{
+	padding-left: 5vw;
+    padding-bottom: 5vw;
+	text-shadow: 0 0 20px #00fffb, 00 10px #0081bc;
+	font-size: 3em;
+}
+
+h1:hover{
+    text-shadow: 0 0 20px green, 00 10px greenyellow; 
+}
+
+.court {
+    color: white;
+    width: 80%; 
+    max-width: 45vw; 
+    padding-left: 5vw; 
+    font-family: 'KodeMono', monospace;
+    padding-bottom: 10%;
+}
+
+.court:hover{
+    font-weight: bold;
+}
+
+/*Bouton*/
+
+a {
+	width: 50%;
+	height: 10vh;
+	font-size: 2vh;
+	font-family: arial, sans-serif;
+	font-weight: 700;
+	position: relative;
+	color: white;
+	z-index: 0;
+	border: 1px solid #3498db;
+	background: black;
+	overflow: hidden;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+}
+
+.pair{
+    padding-left: 10%;
+    display: flex;
+    gap: 10px; 
+    max-width: 80%;
+    padding-bottom: 5%;
+}
+
+.button a {
+    margin-right: 10px; 
+}
+
+a::before {
+	content: '';
+	position: absolute;
+	top: 60px;
+	width: 100%;
+	height: 100%;
+	background: #3498db;
+	border-radius: 50% 50% 0% 0%;
+	z-index: -1;
+	transition: all .5s;
+}
+
+a:hover::before {
+	top: 0px;
+	border-radius: 0;
+}
+
+/*Fin de la partie------------------------------------------------------------------------------------------*/
+
+/*Le visage émoji-------------------------------------------------------------------------------------------*/
+.face {
+    width: 60%;
+    max-width: 20em;
+    aspect-ratio: 1/1;
+    background-color: rgb(255, 213, 0);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    outline: 1.5vw solid rgb(255, 166, 0);
+    border: 1.5vw solid rgba(255, 187, 0, 0.926);
+    box-shadow: 0.2em 0.2em 1rem black;
+    position: absolute;
+	left: 65%;
+    top: 20%;
+}
+
+.face:hover{
+    background-color: #FF0000;
+    outline: 1.5vw solid #8B0000;
+    border: 1.5vw solid #B22222;
+}
+
+.eyes {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftEye, .rightEye {
+    width: 45%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0.2em 0.2em 1rem gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.leftPupil, .rightPupil {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.mouth {
+    width: 15%;
+    height: 3%;
+    border-radius: 100px;
+    background: radial-gradient(rgb(174, 125, 33), rgb(121, 81, 5));
+    margin-bottom: 4vw;
+    border: 0.2em solid rgb(244, 205, 113);
+    border-style: inset;
+}
+
+/*Fin du visage émoji -------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+    .face{
+        width: 30%;
+        left: 55%;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+    .court {
+        width: 80%; 
+        padding-left: 5vw;
+        font-size: 10px;
+    }
+    a{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .face{
+        width: 20%;
+    }
+    h1{
+        font-size: 1em;
+    }
+    .court {
+        width: 100%; 
+        padding-left: 5vw;
+        font-size: smaller;
+    }
+    a{
+        width: 150px;
+        font-size: 7px;
+    }
+    .button{
+        padding-left: 0%;
+    }
+    
+}

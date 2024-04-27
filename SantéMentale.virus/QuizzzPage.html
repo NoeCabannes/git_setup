@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>La Santé Mentale</title>
+    <link rel="stylesheet" href="QuizzzPage.css">
+    <script src="QuizzzPage.js"></script>
+</head>
+<body>
+<h1> Bienvenue à tous sur ce MAGNIFIQUE teste pour évaluer votre Santé Mentale !!</h1>
+<h2> Nos experts en la matière, vous ont concoctés ce superbe teste qui vous permettra d'évaluer votre santé mentale en pourcentage !</h2>
+<h3>Teste:</h3>
+<Quizz>
+<div class="zone">
+	<h4>Combien de douches prenez vous par semaine ?</h4>
+		
+		<input type="radio" name="choix1" id="choix" value="10"/> 7 ou plus
+		<input type="radio" name="choix1" id="choix" value="7"/> 6 à 4
+		<br>
+		<input type="radio" name="choix1" id="choix" value="3"/> 3 à 1
+		<input type="radio" name="choix1" id="choix" value="0"/> Quelle douche ?
+		
+<h4>Sortez-vous dehors (Hors école) ?</h4>
+		<input type="radio" name="choix2" id="choix" value="10"/>Oui, tout les jours.
+		<input type="radio" name="choix2" id="choix" value="7"/>3 fois par semaine.
+		<br>
+		<input type="radio" name="choix2" id="choix" value="3"/>Je préfére travailler.
+		<input type="radio" name="choix2" id="choix" value="0"/>Mon PC a besoin de moi.
+		
+<h4>Avez-vous du succès auprès des femmes/hommes ?</h4>
+		
+		<input type="radio" name="choix3" id="choix" value="10"/>J'ai trouvé la bonne.
+		<input type="radio" name="choix3" id="choix" value="7"/>Oui, énormement.
+		<br>
+		<input type="radio" name="choix3" id="choix" value="3"/>Pas mon choix.
+		<input type="radio" name="choix3" id="choix" value="0"/>Perte de temps.
+		
+<h4>Avez-vous des ami(e)s ?</h4>
+		<input type="radio" name="choix4" id="choix" value="10"/>Beaucoup.
+		<input type="radio" name="choix4" id="choix" value="7"/>Peu, mais ça me suffit.
+		<br> 
+		<input type="radio" name="choix4" id="choix" value="3"/>Les Jeux vidéos sont mes amis.
+		<input type="radio" name="choix4" id="choix" value="0"/> J'ai des ami(e)s imaginaires !
+		
+<h4>Jouez-vous aux Jeux Vidéos ?</h4>
+		
+		<input type="radio" name="choix5" id="choix" value="0"/>Oui, tout les jours.
+		<input type="radio" name="choix5" id="choix" value="3"/>Souvent, 4 fois par semaine environ.
+		<br>
+		<input type="radio" name="choix5" id="choix" value="7"/>Peu, 1 fois par semaine environ.
+		<input type="radio" name="choix5" id="choix" value="10"/>Jamais.
+		
+</div>
+<div class="zone">
+	<h4>Sacrifiez-vous des repas ?</h4>
+		
+		<input type="radio" name="choix6" id="choix" value="10"/>Jamais, c'est sacré.
+		<input type="radio" name="choix6" id="choix" value="7"/>Peu, même si ça reste important.
+		<br>
+		<input type="radio" name="choix6" id="choix" value="3"/>De temps en temps.
+		<input type="radio" name="choix6" id="choix" value="0"/>Régulierement, c'est une perte de temps.
+		
+<h4>Quelle est votre alimentation ?</h4>
+		<input type="radio" name="choix7" id="choix" value="10"/>Healthy.
+		<input type="radio" name="choix7" id="choix" value="7"/>Dans la norme.
+		<br>
+		<input type="radio" name="choix7" id="choix" value="3"/>Pas terrible.
+		<input type="radio" name="choix7" id="choix" value="0"/>Gras et sucré.
+		
+<h4>Pratiquez-vous des activités sportives ?</h4>
+		
+		<input type="radio" name="choix8" id="choix" value="10"/>Tout les jours
+		<input type="radio" name="choix8" id="choix" value="7"/>Régulierement.
+		<br>
+		<input type="radio" name="choix8" id="choix" value="3"/>Peu.
+		<input type="radio" name="choix8" id="choix" value="0"/>Jamais.
+		
+<h4>Regardez-vous des animés ?</h4>
+		<input type="radio" name="choix9" id="choix" value="10"/>Jamais.
+		<input type="radio" name="choix9" id="choix" value="7"/>Peu.
+		<br>
+		<input type="radio" name="choix9" id="choix" value="3"/>Souvent, oui.
+		<input type="radio" name="choix9" id="choix" value="0"/>Je suis un gros consommateur.
+		
+<h4>Quand est-ce la dernière fois que vous vous êtes laver les dents ?</h4>
+		
+		<input type="radio" name="choix10" id="choix" value="10"/>Ce matin.
+		<input type="radio" name="choix10" id="choix" value="7"/>Hier.
+		<br>
+		<input type="radio" name="choix10" id="choix" value="3"/>Quelques temps...
+		<input type="radio" name="choix10" id="choix" value="0"/>Ça se fait encore ça ?
+		
+</div>
+</Quizz>
+<br>
+<div>
+ <h5><input type="button" id="validation" value="Valider" onclick="calculer(this.form)"/></h5>
+		
+        <h5><p>Votre Santé Mentale est à : <span id="score_phrase"></span></p></h5><br>
+</div>
+		<h7><a href="MainPage.html">- Retour à l'Accueil</a></h7><br>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="755.90668"
+   height="377.94931"
+   viewBox="0 0 755.90668 377.94931"
+   sodipodi:docname="vectorstock_22125911.ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <mask
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="mask1061"
+       opacity="0.399994">
+      <path
+         id="path1062"
+         d="M 0,283.463 H 566.93 V 0.001 H 0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,377.95333)"
+         clip-path="url(#clipPath1063)" />
+      <path
+         d="M 566.93,90.461 H 0 v 193.002 h 566.93 z"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,377.95333)"
+         style="fill:url(#linearGradient1065);stroke:none"
+         opacity="1"
+         id="path1065"
+         clip-path="url(#clipPath1066)" />
+    </mask>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1063">
+      <path
+         d="M 0,283.463 H 566.93 V 9.76562e-4 H 0 Z"
+         id="path1063" />
+    </clipPath>
+    <linearGradient
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-188.96402,-188.96402,0,283.46484,282.76855)"
+       spreadMethod="pad"
+       id="linearGradient1065">
+      <stop
+         style="stop-opacity:1;stop-color:#ffffff"
+         offset="0"
+         id="stop1063" />
+      <stop
+         style="stop-opacity:1;stop-color:#000000"
+         offset="0.95217238"
+         id="stop1064" />
+      <stop
+         style="stop-opacity:1;stop-color:#000000"
+         offset="1"
+         id="stop1065" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1066">
+      <path
+         d="M 0,283.463 H 566.93 V 9.76562e-4 H 0 Z"
+         id="path1066" />
+    </clipPath>
+    <linearGradient
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(426.63708,-331.69519,-331.69519,-426.63708,66.592629,310.34241)"
+       spreadMethod="pad"
+       id="linearGradient1074">
+      <stop
+         style="stop-opacity:1;stop-color:#5800b3"
+         offset="0"
+         id="stop1066" />
+      <stop
+         style="stop-opacity:1;stop-color:#5800b3"
+         offset="0.0107527"
+         id="stop1067" />
+      <stop
+         style="stop-opacity:1;stop-color:#00b3ff"
+         offset="0.263441"
+         id="stop1068" />
+      <stop
+         style="stop-opacity:1;stop-color:#674beb"
+         offset="0.377129"
+         id="stop1069" />
+      <stop
+         style="stop-opacity:1;stop-color:#f156ff"
+         offset="0.467379"
+         id="stop1070" />
+      <stop
+         style="stop-opacity:1;stop-color:#824be9"
+         offset="0.55935495"
+         id="stop1071" />
+      <stop
+         style="stop-opacity:1;stop-color:#824be9"
+         offset="0.592183"
+         id="stop1072" />
+      <stop
+         style="stop-opacity:1;stop-color:#00b3ff"
+         offset="0.768817"
+         id="stop1073" />
+      <stop
+         style="stop-opacity:1;stop-color:#5800b3"
+         offset="1"
+         id="stop1074" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1075">
+      <path
+         d="M 0,283.465 H 566.93 V 0 H 0 Z"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,377.95333)"
+         id="path1075" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g1"
+     inkscape:groupmode="layer"
+     inkscape:label="1"
+     transform="translate(0,-0.00267278)">
+    <g
+       id="group-MC0">
+      <g
+         mask="url(#mask1061)"
+         id="g1074"
+         clip-path="url(#clipPath1075)">
+        <path
+           d="M 566.93,0.001 H 0 v 283.462 h 566.93 z"
+           transform="matrix(1.3333333,0,0,-1.3333333,0,377.95333)"
+           style="display:inline;fill:url(#linearGradient1074);stroke:none"
+           opacity="0.399994"
+           id="path1074" />
+      </g>
+    </g>
+  </g>
+</svg>
